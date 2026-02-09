@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Rose Day ❤️</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to bottom, #ff758c, #ffb3c6);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 500px;
+    }
+
+    button {
+      margin-top: 25px;
+      padding: 15px 28px;
+      font-size: 17px;
+      border: none;
+      border-radius: 30px;
+      background: white;
+      color: #ff4d6d;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    button:active {
+      transform: scale(0.96);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Happy Rose Day 🌹</h1>
+
+  <p>
+    I know I’m not there with you to celebrate Rose Day,
+and I wish I could be right beside you right now.
+So here are a few small gifts from me, made with all my love,
+just to remind you how special you are to me.
+No matter where I am, my heart is always with you.
+I’ll always love you the most, my Bo Boo Bear🌹❤️.<br>
+    Tap below — this song is for you ❤️
+  </p>
+
+  <button onclick="playMusic()">
+    🎵 Tap to Play Our Song
+  </button>
+
+  <audio id="music">
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    function playMusic() {
+      document.getElementById("music").play();
+    }
+  </script>
+
+</body>
+</html>
